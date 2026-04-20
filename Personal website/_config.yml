@@ -1,0 +1,47 @@
+# Site settings
+title: Qian Tang
+tagline: Ecologist & Evolutionary Biologist
+description: >-
+  Personal website of Qian Tang — researcher at the Rowland Institute at
+  Harvard studying ecology, evolution, and conservation genetics.
+author: Qian Tang
+email: tangqiannus@gmail.com
+
+# URLs — update baseurl if you deploy to username.github.io/repo-name
+url: ""
+baseurl: ""
+
+# Social / contact
+scholar_url: https://scholar.google.com/citations?hl=en&user=yY5Ds1sAAAAJ
+github_url: https://github.com/qt37t247
+orcid_url: https://orcid.org/0000-0001-6674-6057
+linkedin_url: https://www.linkedin.com/in/qian-tang-6530b460
+twitter_url: https://twitter.com/QianTANGNUS
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Navigation — order matters
+nav:
+  - title: About
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Projects
+    url: /projects/
+  - title: CV
+    url: /cv/
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - README.md

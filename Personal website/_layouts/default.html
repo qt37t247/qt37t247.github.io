@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav">
+        {% for item in site.nav %}
+          {% assign current = false %}
+          {% if page.url == item.url %}{% assign current = true %}{% endif %}
+          <a href="{{ item.url | relative_url }}"{% if current %} class="active"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="links">
+        <a href="{{ site.scholar_url }}" rel="noopener">Google Scholar</a>
+        <a href="{{ site.orcid_url }}" rel="noopener">ORCID</a>
+        <a href="{{ site.github_url }}" rel="noopener">GitHub</a>
+        <a href="{{ site.linkedin_url }}" rel="noopener">LinkedIn</a>
+        <a href="{{ site.twitter_url }}" rel="noopener">Twitter</a>
+        <a href="mailto:{{ site.email }}">Email</a>
+      </div>
+      <p class="copy">&copy; {{ 'now' | date: '%Y' }} {{ site.author }}. Built with Jekyll.</p>
+    </div>
+  </footer>
+</body>
+</html>
