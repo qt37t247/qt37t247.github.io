@@ -21,7 +21,7 @@ description: Short academic CV for Qian Tang — positions, education, and resea
     <span class="when">2024 - Present</span>
     <span class="what">
       <strong>Postdoc Research Associate</strong>
-      Avalon Owens Lab({{ site.scholar_url }})
+      [Owens Lab (PI: Avalon Owens)](https://owenslab.org/people)
       Rowland Institute at Harvard · Cambridge, MA
     </span>
   </li>
@@ -34,6 +34,7 @@ description: Short academic CV for Qian Tang — positions, education, and resea
     <span class="when">2016 - 2024</span>
     <span class="what">
       <strong>Postdoc Research Fellow</strong>
+      [Avian Evolution Lab (PI: Frank Rheindt)](https://owenslab.org/people)
       National University of Singapore, Singapore
     </span>
   </li>
@@ -46,34 +47,17 @@ description: Short academic CV for Qian Tang — positions, education, and resea
     <span class="when">PhD (2011 - 2016)</span>
     <span class="what">
       <strong>National University of Singapore</strong>
-      Evolutionary Biology Lab (Avian Evolution / Rheindt Lab).
+      Department of Biological Sciences.
     </span>
   </li>
   <li>
     <span class="when">BSc (2007 - 2011)</span>
     <span class="what">
       <strong>Wuhan University</strong>
-      School of Life Science, Class of 2011.
+      School of Life Science.
     </span>
   </li>
 </ul>
-
-## Research focus
-
-<div class="tags">
-  <span class="tag">Landscape genomics</span>
-  <span class="tag">Conservation genetics</span>
-  <span class="tag">Invasion biology</span>
-  <span class="tag">Phylogenetics</span>
-  <span class="tag">Forward-time simulation</span>
-  <span class="tag">Bioinformatics</span>
-</div>
-
-I study how landscapes, climate, and human activity shape the genetic structure
-of wild populations — from cockroaches and mosquitoes in cities to horseshoe
-crabs across Asia's shifting coastlines. Methodologically, I combine
-population genomics (ddRAD‑Seq, whole‑genome sequencing) with spatially
-explicit simulations and landscape‑genetic modelling.
 
 ## Scholarly metrics
 
