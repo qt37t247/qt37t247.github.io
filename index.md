@@ -5,7 +5,7 @@ description: Qian Tang — ecologist and evolutionary biologist at the Rowland I
 ---
 
 <section class="hero">
-  <img class="avatar" aria-hidden="true">QT</div>
+  <img class="avatar" src="{{ '/assets/img/avatar.jpg' | relative_url }}" alt="Photo of Qian Tang">
   <div>
     <h1>Qian Tang</h1>
     <p class="role">Ecologist &middot; Evolutionary Biologist &middot; Rowland Institute at Harvard</p>
