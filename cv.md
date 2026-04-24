@@ -8,8 +8,9 @@ description: Short academic CV for Qian Tang — positions, education, and resea
 # Curriculum Vitae
 
 <p class="meta">
-  A short summary of my academic record. Download a full PDF version —
-  <em>coming soon</em> — or email me at
+  A short summary of myself.
+  <a href="{{ '/assets/pdf/Qian_Tang_CV.pdf' | relative_url }}" download>Download the full PDF</a>,
+  or email me at
   <a href="mailto:{{ site.email }}">{{ site.email }}</a> for the latest copy.
 </p>
 
@@ -17,34 +18,41 @@ description: Short academic CV for Qian Tang — positions, education, and resea
 
 <ul class="timeline">
   <li>
-    <span class="when">Present</span>
+    <span class="when">2024 - Present</span>
     <span class="what">
-      <strong>Researcher</strong>
+      <strong>Postdoc Research Associate</strong>
       Rowland Institute at Harvard · Cambridge, MA
+    </span>
+  </li>
+</ul>
+
+## Past position
+
+<ul class="timeline">
+  <li>
+    <span class="when">2016 - 2024</span>
+    <span class="what">
+      <strong>Postdoc Research Fellow</strong>
+      National University of Singapore, Singapore
     </span>
   </li>
 </ul>
 
 ## Education
 
-<p class="meta">
-  Fill in dates and institutions below — these are placeholders based on
-  publicly‑visible affiliations. Edit <code>cv.md</code> to update.
-</p>
-
 <ul class="timeline">
   <li>
-    <span class="when">PhD</span>
+    <span class="when">PhD (2011 - 2016)</span>
     <span class="what">
       <strong>National University of Singapore</strong>
       Evolutionary Biology Lab (Avian Evolution / Rheindt Lab).
     </span>
   </li>
   <li>
-    <span class="when">MSc / BSc</span>
+    <span class="when">BSc (2007 - 2011)</span>
     <span class="what">
-      <strong>Earlier training</strong>
-      Add institution(s), department, year.
+      <strong>Wuhan University</strong>
+      School of Life Science, Class of 2011.
     </span>
   </li>
 </ul>
@@ -70,7 +78,7 @@ explicit simulations and landscape‑genetic modelling.
 
 <div class="stats">
   <div class="stat"><span class="num">20+</span><span class="lbl">Publications</span></div>
-  <div class="stat"><span class="num">569</span><span class="lbl">Citations</span></div>
+  <div class="stat"><span class="num">570+</span><span class="lbl">Citations</span></div>
   <div class="stat"><span class="num">14</span><span class="lbl">h-index</span></div>
 </div>
 
