@@ -21,6 +21,7 @@ description: Short academic CV for Qian Tang — positions, education, and resea
     <span class="when">2024 - Present</span>
     <span class="what">
       <strong>Postdoc Research Associate</strong>
+      Avalon Owens Lab({{ site.scholar_url }})
       Rowland Institute at Harvard · Cambridge, MA
     </span>
   </li>
