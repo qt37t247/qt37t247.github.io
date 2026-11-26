@@ -45,7 +45,7 @@ description: Short academic CV for Qian Tang — positions, education, and resea
     <span class="when">2016 - 2024</span>
     <span class="what">
       <strong>Postdoc Research Fellow</strong>
-      [Avian Evolution Lab (PI: Frank Rheindt)](https://owenslab.org/people)
+      [Avian Evolution Lab (PI: Frank Rheindt)]
       National University of Singapore, Singapore
     </span>
   </li>
