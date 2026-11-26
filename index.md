@@ -5,7 +5,7 @@ description: Qian Tang — ecologist and evolutionary biologist at Florida Museu
 ---
 
 <section class="hero">
-  <div class="avatar" aria-hidden="true">QT</div>
+  <img class="avatar" src="{{ '/assets/img/avatar.jpg' }}" alt="Photo of Qian Tang">
   <div>
     <h1>Qian Tang</h1>
     <p class="role">Ecologist &middot; Evolutionary Biologist &middot; Florida Museum of Natural History</p>
