@@ -1,14 +1,14 @@
 ---
 layout: default
 title: About
-description: Qian Tang — ecologist and evolutionary biologist at the Rowland Institute at Harvard.
+description: Qian Tang — ecologist and evolutionary biologist at Florida Museum of Natural History.
 ---
 
 <section class="hero">
-  <img class="avatar" src="{{ '/assets/img/avatar.jpg' }}" alt="Photo of Qian Tang">
+  <div class="avatar" aria-hidden="true">QT</div>
   <div>
     <h1>Qian Tang</h1>
-    <p class="role">Ecologist &middot; Evolutionary Biologist &middot; Rowland Institute at Harvard</p>
+    <p class="role">Ecologist &middot; Evolutionary Biologist &middot; Florida Museum of Natural History</p>
     <div class="tags">
       <span class="tag">Ecology</span>
       <span class="tag">Evolution</span>
@@ -22,7 +22,12 @@ description: Qian Tang — ecologist and evolutionary biologist at the Rowland I
 I'm a researcher working at the intersection of **ecology**, **evolution**, and **genetics**.
 My work uses genomic data and spatially explicit simulations to understand how species
 respond to environmental change — from urbanisation and habitat loss to the accidental
-dispersal of invasive insects across oceans.
+dispersal of invasive insects across oceans. I’m particularly interested in discovering
+mechanisms that drive adaptation at different spatial and temporal scales. I also love
+discussions in theories in the field of ecology, population genomics, and molecular
+evolution. At Florida Musuem of Natural History, I’m working on a project that investigates
+the evolution of silk. I aim to explore the origin and the ecological context of the silk
+diversity in Lepidoptera (moths and butterflies) and Trichoptera (caddisflies).
 
 ## Research interests
 
